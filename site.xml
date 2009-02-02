@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site>
+<site
+      mirrorsURL="http://laws.deinf.ufma.br/ncleclipse/update">
    <description url="http://laws.deinf.ufma.br/ncleclipse/descrition">
       This update site provides the faster and easier way to install NCL Eclipse in your Eclipse enviroment.
    </description>
