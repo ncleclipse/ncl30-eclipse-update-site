@@ -10,5 +10,8 @@
    <feature url="features/br.ufma.deinf.laws.ncleclipse.feature_1.3.1.jar" id="br.ufma.deinf.laws.ncleclipse.feature" version="1.3.1" os="linux,win32" ws="gtk,win32" nl="en" arch="x86,x86_64">
       <category name="NCL"/>
    </feature>
+   <feature url="features/br.ufma.deinf.laws.ncleclipse.feature_1.3.2.jar" id="br.ufma.deinf.laws.ncleclipse.feature" version="1.3.2" os="linux,win32" ws="gtk,win32" nl="en" arch="x86,x86_64">
+      <category name="NCL"/>
+   </feature>
    <category-def name="NCL" label="NCL"/>
 </site>
