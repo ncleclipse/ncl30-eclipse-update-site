@@ -3,20 +3,14 @@
 <repository name='NCL Eclipse Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.compressed' value='false'/>
-    <property name='p2.timestamp' value='1247239143482'/>
+    <property name='p2.timestamp' value='1247684787877'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='12'>
-    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.4'>
-      <properties size='2'>
-        <property name='artifact.size' value='1264'/>
-        <property name='download.size' value='1264'/>
-      </properties>
-    </artifact>
+  <artifacts size='22'>
     <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.0'>
       <properties size='2'>
         <property name='artifact.size' value='1264'/>
@@ -44,11 +38,10 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.3'>
-      <properties size='3'>
-        <property name='artifact.size' value='22022885'/>
-        <property name='download.size' value='22022885'/>
-        <property name='download.contentType' value='application/zip'/>
+    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.5'>
+      <properties size='2'>
+        <property name='artifact.size' value='1265'/>
+        <property name='download.size' value='1265'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.4'>
@@ -64,10 +57,38 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='337834'/>
+        <property name='download.size' value='337834'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='339169'/>
+        <property name='download.size' value='339169'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse.club' version='1.0.0'>
       <properties size='3'>
         <property name='artifact.size' value='46144'/>
         <property name='download.size' value='46144'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='337886'/>
+        <property name='download.size' value='337886'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='22065820'/>
+        <property name='download.size' value='22065820'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
@@ -78,13 +99,60 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.1'>
+    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.2'>
       <properties size='2'>
         <property name='artifact.size' value='1266'/>
         <property name='download.size' value='1266'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.2'>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='339165'/>
+        <property name='download.size' value='339165'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.5.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='1267'/>
+        <property name='download.size' value='1267'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.4'>
+      <properties size='2'>
+        <property name='artifact.size' value='1264'/>
+        <property name='download.size' value='1264'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='335497'/>
+        <property name='download.size' value='335497'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='337957'/>
+        <property name='download.size' value='337957'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.3'>
+      <properties size='3'>
+        <property name='artifact.size' value='22022885'/>
+        <property name='download.size' value='22022885'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.ufma.deinf.laws.ncleclipse' version='1.3.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='22065830'/>
+        <property name='download.size' value='22065830'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='br.ufma.deinf.laws.ncleclipse.feature' version='1.3.1'>
       <properties size='2'>
         <property name='artifact.size' value='1266'/>
         <property name='download.size' value='1266'/>
